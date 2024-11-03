@@ -81,5 +81,9 @@ When saving a StudentProfile entity that references a User, ensure the User enti
 Contribution
 Feel free to fork this repository, open an issue, or submit a pull request if you want to improve the application.
 
+## Demo
+[Watch the Demo Video](https://drive.google.com/file/d/1YxQwB5zAPGuPcKYTbw-QPVRMiOheWOxP/view?usp=drivesdk )
+
+
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
