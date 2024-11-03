@@ -1,0 +1,42 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; /* Set a default font for your application */
+  background-color: #ffffff; /* White background for the whole application */
+  color: #333; /* Dark grey text for better readability */
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0.5rem 0; /* Add some padding to headers */
+}
+
+.container {
+  max-width: 1200px; /* Limit the width of the content */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add some padding around the content */
+}
+
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007BFF; /* Bootstrap primary color */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+/* Add any additional styles for buttons, forms, etc. */
+.button {
+  background-color: #007BFF; /* Button color */
+  color: white; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darken button on hover */
+}

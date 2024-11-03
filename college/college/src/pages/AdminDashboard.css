@@ -1,0 +1,135 @@
+/* src/AdminDashboard.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* White background for the whole page */
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #75c1c1; /* Underline style */
+    padding-bottom: 5px;
+}
+
+/* General styles for sections */
+.sten,
+.cl,
+.mf {
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    margin-bottom: 20px; /* Space below sections */
+}
+
+/* Chart sections */
+.sten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto; /* Allow height to adjust based on content */
+}
+
+.cl {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content */
+}
+
+/* Faculty management section */
+.mf {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content */
+}
+
+/* Styles for forms */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Space below the form */
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px; /* Inner padding for inputs */
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below inputs */
+}
+
+button {
+    background-color: #75c1c1; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Inner padding for buttons */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #5a9b9b; /* Darker shade on hover */
+}
+
+/* Style adjustments for charts to make them smaller */
+canvas {
+    max-width: 400px; /* Set a maximum width for the charts */
+    max-height: 300px; /* Set a maximum height for the charts */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sten, .cl, .mf {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    button {
+        padding: 8px; /* Less padding on buttons for smaller screens */
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select {
+        padding: 8px; /* Less padding on inputs for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px; /* Smaller font size for headings */
+    }
+
+    h2 {
+        font-size: 20px; /* Adjust heading size */
+    }
+
+    .sten, .cl, .mf {
+        padding: 10px; /* Further reduce padding */
+    }
+
+    button {
+        padding: 6px; /* Adjust padding for buttons */
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select {
+        padding: 6px; /* Further adjust padding for inputs */
+    }
+}

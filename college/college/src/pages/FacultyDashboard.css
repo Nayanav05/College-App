@@ -1,0 +1,111 @@
+/* FacultyDashboard.css */
+
+.dashboard-container {
+    padding: 30px; /* Increased padding for spacious feel */
+    max-width: 800px; /* Limit width for better readability */
+    margin: 40px auto; /* Center container with margin at top */
+    font-family: 'Arial', sans-serif; /* Professional font */
+    background-color: #f9f9f9; /* Light gray background for a soft look */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.dashboard-title {
+    font-size: 2.5em; /* Larger title */
+    margin-bottom: 20px; /* Space below title */
+    color: #000; /* Black title color */
+    text-align: center; /* Center title */
+    font-weight: bold; /* Bold title for emphasis */
+}
+
+.section-title {
+    font-size: 1.8em; /* Subsection title size */
+    margin-top: 30px; /* Space above subsection title */
+    color: #333; /* Dark gray for professional look */
+    border-bottom: 2px solid #333; /* Underline for emphasis */
+    padding-bottom: 5px; /* Padding below title */
+    text-align: left; /* Left align subsection titles */
+    font-weight: 600; /* Semi-bold for subsection titles */
+}
+
+.profile-section {
+    background-color: #ffffff; /* White background for profile section */
+    padding: 20px; /* Padding for profile section */
+    border-radius: 6px; /* Rounded corners for profile box */
+    margin-bottom: 30px; /* Space below profile section */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.profile-section:hover {
+    background-color: #f1f1f1; /* Light gray on hover */
+}
+
+.profile-info {
+    margin: 10px 0; /* Space between profile info paragraphs */
+    padding: 15px; /* Padding for profile info */
+    border: 1px solid #ddd; /* Light border around profile */
+    border-radius: 6px; /* Rounded corners for profile box */
+}
+
+.profile-info p {
+    margin: 8px 0; /* Space for paragraphs */
+    color: #555; /* Darker gray for text */
+    line-height: 1.6; /* Improved line height for readability */
+}
+
+.loading-message {
+    color: #999; /* Light gray for loading message */
+    font-style: italic; /* Italicize loading message */
+    text-align: center; /* Center loading message */
+}
+
+.update-profile {
+    margin-top: 20px; /* Space above the update profile section */
+    text-align: center; /* Center the update profile section */
+}
+
+.class-list {
+    margin-top: 30px; /* Space above the class list */
+}
+
+/* Button Styles */
+.button {
+    background-color: #000; /* Black background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 12px 20px; /* Padding for buttons */
+    border-radius: 6px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em; /* Font size for buttons */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+.button:hover {
+    background-color: #444; /* Dark gray on hover */
+    transform: translateY(-2px); /* Slightly raise button on hover */
+}
+
+.button:active {
+    transform: translateY(0); /* Reset on click */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .dashboard-container {
+        padding: 20px; /* Less padding on smaller screens */
+        margin: 20px; /* Less margin on smaller screens */
+    }
+
+    .dashboard-title {
+        font-size: 2em; /* Smaller title */
+    }
+
+    .section-title {
+        font-size: 1.5em; /* Smaller subsection title */
+    }
+
+    .button {
+        padding: 10px 15px; /* Adjust padding for smaller screens */
+        font-size: 0.9em; /* Smaller font size for buttons */
+    }
+}
